@@ -7,6 +7,11 @@ const App = () => {
 
 const dispatch =useDispatch();
 //code here 
+  if(changeColor){
+    changeStyle("green");
+  }else{
+    changeStyle("red");
+  }
 
   return (
     <div id="main">
